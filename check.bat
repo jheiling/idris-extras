@@ -1,0 +1,1 @@
+idris --checkpkg extras.ipkg

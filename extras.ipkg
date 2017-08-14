@@ -1,0 +1,8 @@
+package extras
+
+sourcedir = src
+
+modules = Data.List.Extras
+        , Data.String.Extras
+        , Data.Vect.Extras
+        , Either.Extras
