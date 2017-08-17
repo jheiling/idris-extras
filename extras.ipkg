@@ -6,3 +6,5 @@ modules = Data.List.Extras
         , Data.String.Extras
         , Data.Vect.Extras
         , Either.Extras
+        , Monad.Extras
+        , JS
