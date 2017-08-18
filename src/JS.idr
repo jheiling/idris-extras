@@ -5,7 +5,8 @@ module JS
 
 
 
-JsTy : Type
+%inline
+JsTy : Type -> Type
 JsTy = FTy FFI_JS []
 
 %inline
