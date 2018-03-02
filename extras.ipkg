@@ -11,5 +11,5 @@ modules = Control.Monad.Extras
         , JS.Array
         , JS.DOM
         , JS.DOM.Document
-        , JS.Node
+        , JS.Node.Module
         , JS.Object
