@@ -1,4 +1,4 @@
-module Foldable.Extras
+module Data.Foldable.Extras
 
 %default total
 %access export

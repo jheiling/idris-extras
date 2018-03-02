@@ -1,4 +1,4 @@
-module Either.Extras
+module Data.Either.Extras
 
 %default total
 %access export

@@ -1,4 +1,4 @@
-module Monad.Extras
+module Control.Monad.Extras
 
 %default total
 %access export

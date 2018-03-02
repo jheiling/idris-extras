@@ -1,11 +1,15 @@
 package extras
 
 sourcedir = src
-
-modules = Data.List.Extras
+modules = Control.Monad.Extras
+        , Data.Either.Extras
+        , Data.Foldable.Extras
+        , Data.List.Extras
         , Data.String.Extras
         , Data.Vect.Extras
-        , Either.Extras
-        , Foldable.Extras
-        , Monad.Extras
         , JS
+        , JS.Array
+        , JS.DOM
+        , JS.DOM.Document
+        , JS.Node
+        , JS.Object
