@@ -1,8 +1,9 @@
 module JS.DOM.Document
 
+import Control.Monad.Syntax
+
 import JS
 import JS.DOM
-import Control.Monad.Extras
 
 %default total
 %access export

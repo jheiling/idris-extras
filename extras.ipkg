@@ -1,8 +1,7 @@
 package extras
 
 sourcedir = src
-modules = Control.Monad.Extras
-        , Data.Either.Extras
+modules = Data.Either.Extras
         , Data.Foldable.Extras
         , Data.List.Extras
         , Data.String.Extras
@@ -13,3 +12,4 @@ modules = Control.Monad.Extras
         , JS.DOM.Document
         , JS.Node.Module
         , JS.Object
+pkgs = contrib
