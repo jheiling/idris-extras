@@ -1,11 +1,12 @@
 module Js.DOM
 
 %default total
-%access public export
 
 
 
+public export
 data Element = MkElement Ptr
 
+export
 Cast Element Ptr where
     cast (MkElement ptr) = ptr

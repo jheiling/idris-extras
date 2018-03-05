@@ -18,30 +18,24 @@ interface Member a where
 
 
 
-public export
 Cast Object Ptr where
     cast (MkObject ptr) = ptr
 
-public export
 Cast (JS_IO Ptr) (JS_IO Object) where
     cast o = pure $ MkObject !o
 
-public export
 Member Nat where
     get member = js "%1[%0]" (String -> Ptr -> JS_IO Int) member . cast >=> pure . cast
     set member value = js "%2[%0] = %1" (String -> Int -> Ptr -> JS_IO ()) member (cast value) . cast
 
-public export
 Member Int where
     get member = js "%1[%0]" (String -> Ptr -> JS_IO Int) member . cast
     set member value = js "%2[%0] = %1" (String -> Int -> Ptr -> JS_IO ()) member value . cast
 
-public export
 Member Double where
     get member = js "%1[%0]" (String -> Ptr -> JS_IO Double) member . cast
     set member value = js "%2[%0] = %1" (String -> Double -> Ptr -> JS_IO ()) member value . cast
 
-public export
 Member String where
     get member = js "%1[%0]" (String -> Ptr -> JS_IO String) member . cast
     set member value = js "%2[%0] = %1" (String -> String -> Ptr -> JS_IO ()) member value . cast

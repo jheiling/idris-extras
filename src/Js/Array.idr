@@ -6,10 +6,11 @@ import Js
 import Data.Foldable.Extras
 
 %default total
-%access public export
+%access export
 
 
 
+public export
 data Array = MkArray Ptr
 
 Cast Array Ptr where
