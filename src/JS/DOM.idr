@@ -1,7 +1,5 @@
 module JS.DOM
 
-import JS
-
 %default total
 %access public export
 
