@@ -10,7 +10,7 @@ import Js.DOM
 
 
 getElement : (id : String) -> JS_IO Element
-getElement = js "document.getElementById(%0)" (String -> JS_IO Ptr) >=> pure . MkElement
+getElement = cast . js "document.getElementById(%0)" (String -> JS_IO Ptr)
 
 write : String -> JS_IO ()
 write = js "document.write(%0)" (String -> JS_IO ())

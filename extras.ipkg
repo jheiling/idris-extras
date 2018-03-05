@@ -7,9 +7,9 @@ modules = Data.Either.Extras
         , Data.String.Extras
         , Data.Vect.Extras
         , Js
+        , Js.Object
         , Js.Array
         , Js.DOM
         , Js.DOM.Document
         , Js.Node.Module
-        , Js.Object
 pkgs = contrib
