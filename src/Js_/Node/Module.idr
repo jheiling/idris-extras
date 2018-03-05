@@ -1,6 +1,6 @@
-module JS.Node.Module
+module Js.Node.Module
 
-import JS
+import Js
 
 %default total
 %access export

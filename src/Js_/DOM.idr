@@ -1,4 +1,4 @@
-module JS.DOM
+module Js.DOM
 
 %default total
 %access public export

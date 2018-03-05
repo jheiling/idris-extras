@@ -1,8 +1,8 @@
-module JS.Array
+module Js.Array
 
 import Control.Monad.Syntax
 
-import JS
+import Js
 import Data.Foldable.Extras
 
 %default total

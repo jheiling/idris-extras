@@ -1,4 +1,4 @@
-module JS
+module Js
 
 %default total
 %access export
