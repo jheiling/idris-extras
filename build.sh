@@ -1,4 +1,4 @@
 #!/bin/bash
 
-idris --build extras.ipkg
+idris --build extras.ipkg &&
 idris --mkdoc extras.ipkg

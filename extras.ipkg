@@ -6,10 +6,4 @@ modules = Data.Either.Extras
         , Data.List.Extras
         , Data.String.Extras
         , Data.Vect.Extras
-        , Js
-        , Js.Object
-        , Js.Array
-        , Js.DOM
-        , Js.DOM.Document
-        , Js.Node.Module
 pkgs = contrib
